@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right ,
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#e50914,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  #221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#eff86e,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#dadad6,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  rgb(0, 0, 0),#221f1f,#221f1f,#e6a938,#221f1f,rgb(0, 0, 0),
+  #221f1f,#221f1f,#494848,#494848,#494848,#494848,#221f1f,#221f1f,
+  #221f1f,#221f1f,#686767,#686767,#686767,#686767,
+  #221f1f,#221f1f,#dadad6,#221f1f,#221f1f,
+  #221f1f,#221f1f,#e7a05d,#221f1f,#221f1f,
+  #b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,
+  #221f1f,#221f1f,#b9b9b9,#221f1f,#221f1f,
+  #221f1f,#221f1f,#aa65f8,#221f1f,#221f1f,
+  #221f1f,#221f1f,#b9b9b9,#221f1f,#221f1f,
+  #d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,
+  #b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,
+  #221f1f,#221f1f,#b9b9b9,#221f1f,#221f1f,
+  
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,#f1f1f1,
+  #221f1f,#221f1f,#d1cece,#d1cece,#ca5959,#d1cece,#d1cece,#221f1f,#221f1f, 
+  #221f1f,#221f1f,#b9b9b9,#221f1f,#221f1f,
+  #d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,#d1cece,
+  #b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,#b9b9b9,
+  #221f1f,#221f1f,#b9b9b9,#221f1f,#221f1f,
+  #686767,#686767,#686767,#686767,#221f1f,#221f1f,
+  #221f1f,#221f1f,#686767,#686767,#686767,#686767,
+  #221f1f,#221f1f,#dadad6,#221f1f,#221f1f,
+  #221f1f,#221f1f,#81a3ec,#221f1f,#221f1f,
+  #221f1f,#221f1f,#494848,#494848,#494848,#494848,#221f1f,#221f1f,
+  rgb(0, 0, 0),#221f1f,#221f1f,#e6a938,#221f1f,rgb(0, 0, 0),
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#8fe954,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#dadad6,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  #221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0),
+  rgb(0, 0, 0),rgb(0, 0, 0),#221f1f,#221f1f,#e50914,#221f1f,#221f1f,rgb(0, 0, 0),rgb(0, 0, 0));
+  
+  /* background:linear-gradient(-1400deg, #e50914, #221f1f, #f5f5f1); */
+  text-align : center;
+  background-size: cover ,contain;
+  display: flow-root;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
